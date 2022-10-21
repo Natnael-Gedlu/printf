@@ -1,7 +1,10 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-
+#include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <stdarg.h>
+#include <unistd.h>
 /**
  * struct print - structure for printing various types
  * @t: type to print
